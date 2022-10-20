@@ -8,7 +8,7 @@ void Main()
 {
     Console.Clear();
     int N = GetNumber();
-    double [] fib = Fibonacci(N);
+    double[] fib = Fibonacci(N);
     PrintArray(fib);
 }
 int GetNumber()
@@ -42,7 +42,7 @@ double[] Fibonacci(int n)
 void PrintArray(double[] arr)
 {
     Console.WriteLine("\nArray:");
-    for ( int i = 0; i<arr.Length; i++)
+    for (int i = 0; i < arr.Length; i++)
     {
         Console.Write($" {arr[i]} ");
     }
